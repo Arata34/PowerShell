@@ -29,4 +29,4 @@ ________________________
 **New-Item -Path . -Name "Exemple.txt" -ItemType "file"** : Comme la présédente a la difference près que  
                                                             celle la vas créé un fichier text.  
   
-
+![Exemple New-Item](https://github.com/Arata34/PowerShell/blob/master/Exemple_New-Item.PNG)
