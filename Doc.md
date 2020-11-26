@@ -11,8 +11,7 @@ ________________________
 ### Naviger dans votre ordinateur  
   
 **ls** : Vous permet d'afficher les éllement dans le fichier ou vous vous trouvez.  
-![exemple](https://github.com/Arata34/PowerShell/blob/master/Capture.PNG)  
+![exemple](https://github.com/Arata34/PowerShell/blob/master/Exemple_ls.PNG)  
   
 **cd "Nom d'un fichier"** : Vous permet de rentrer dans le fichier de votre choix.
-
 
