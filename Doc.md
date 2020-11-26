@@ -29,4 +29,10 @@ ________________________
 **New-Item -Path . -Name "Exemple.txt" -ItemType "file"** : Comme la présédente a la difference près que  
                                                             celle la vas créé un fichier text.  
   
-![Exemple New-Item](https://github.com/Arata34/PowerShell/blob/master/Exemple_New-Item.PNG)
+![Exemple New-Item](https://github.com/Arata34/PowerShell/blob/master/Exemple_New-Item.PNG)  
+  
+**Important** : Vous pouvez chnager le dossier ou sera créé le fichier en changeant le "." par le chemain de votre choix. Exemple :  New-Item -Path "D:\_Documents" -Name "Exemple.txt" -ItemType "file". 
+  
+**rm nom_de_l'éllément** : Cela vas suprimer l'éllément choisie (attention il n'y a pas de confirmation).  
+  
+**Nom_du_fichier** : Entrer le nom d'un fichier dans l'interpreteur l'ouvira si possible.
