@@ -36,3 +36,11 @@ ________________________
 **rm nom_de_l'éllément** : Cela vas suprimer l'éllément choisie (attention il n'y a pas de confirmation).  
   
 **Nom_du_fichier** : Entrer le nom d'un fichier dans l'interpreteur l'ouvira si possible.
+  
+___________________________  
+  
+## Création de Script  
+  
+Pour créer des script Powershell je conseil d'utiliser **Powershell ISE**, l'outil est tres simple d'utilisation et est installer de base sur votre machine.
+
+![PowerShell_ISE](https://github.com/Arata34/PowerShell/blob/master/PowerShell_ise.PNG)
