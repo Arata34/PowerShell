@@ -43,4 +43,10 @@ ___________________________
   
 Pour créer des script Powershell je conseil d'utiliser **Powershell ISE**, l'outil est tres simple d'utilisation et est installer de base sur votre machine.
 
-![PowerShell_ISE](https://github.com/Arata34/PowerShell/blob/master/PowerShell_ise.PNG)
+![PowerShell_ISE](https://github.com/Arata34/PowerShell/blob/master/PowerShell_ise.PNG)  
+  
+### Les Variable  
+  
+**$Nom_variable = valeur** : Cette syntaxe vas déclarer la variable et lui assigner un type.
+                             Pour forcer le type de la variable vous pouvez le rajouter entre crochet avant le nom de la variable. Exemple : [string]$Exemple = "Exemple".
+  
