@@ -50,3 +50,4 @@ Pour créer des script Powershell je conseil d'utiliser **Powershell ISE**, l'ou
 **$Nom_variable = valeur** : Cette syntaxe vas déclarer la variable et lui assigner un type.
                              Pour forcer le type de la variable vous pouvez le rajouter entre crochet avant le nom de la variable. Exemple : [string]$Exemple = "Exemple".
   
+**Type de variable** : ![Variable](https://github.com/Arata34/PowerShell/blob/master/variable.PNG)
