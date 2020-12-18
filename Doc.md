@@ -80,4 +80,16 @@ En PowerShell les condition utilise des opperateur different qu'il faut connaitr
 
 **-like** : Va permettre de comparer deux chaine de charactere. Exemple if ($value -like 'Exemple') {} 
             A noté qu'il est possible de rechercher juste une petite suite de charactere.
-            Exemple : if ($value -like '*Exp\*')
+            Exemple : if ($value -like '*Exp\*')  
+  
+### Les fonction
+  
+Le PowerShell utilise un systeme très simple. En PowerShell utilise des prefix suivit de l'élément choisie pour interagire avec.
+
+**Add-** : Ajoute un élément du type choisie.
+  
+**Get-** : Recupere un élément du type choisie.
+  
+**Read-** : Lis un élément du type choisie.
+  
+**New-** : Permet de créer un objet ou une classe.
