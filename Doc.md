@@ -80,4 +80,4 @@ En PowerShell les condition utilise des opperateur different qu'il faut connaitr
 
 **-like** : Va permettre de comparer deux chaine de charactere. Exemple if ($value -like 'Exemple') {} 
             A noté qu'il est possible de rechercher juste une petite suite de charactere.
-            Exemple : if ($value -like '*\Exp\*')
+            Exemple : if ($value -like '*Exp\*')
