@@ -45,7 +45,7 @@ Pour créer des script Powershell je conseil d'utiliser **Powershell ISE**, l'ou
 
 ![PowerShell_ISE](https://github.com/Arata34/PowerShell/blob/master/PowerShell_ise.PNG)  
   
-### Les Variable  
+### Les Variables  
   
 **$Nom_variable = valeur** : Cette syntaxe vas déclarer la variable et lui assigner un type.
                              Pour forcer le type de la variable vous pouvez le rajouter entre crochet avant le nom de la variable. Exemple : [string]$Exemple = "Exemple".
@@ -53,4 +53,31 @@ Pour créer des script Powershell je conseil d'utiliser **Powershell ISE**, l'ou
 **Type de variable** : ![Variable](https://github.com/Arata34/PowerShell/blob/master/variable.PNG)  
   
 **Les opérateur** : les opérateur fonctionelle sont : +, -, *, /. Exemple $result = $V_1 + $V_2.
+  
+________________________  
+  
+### Les Conditions  
+  
+**If (condition) {}** : La structure des condition est très simple et pertmet de verifier tout ce que l'ont   
+                        souhaite.
 
+**For (etat de base; condition; variation) {}** : Les boucle for pertmet de repeter une portion de scripte 
+                                                  un nombre de fois que l'ont veux.
+  
+**Do {}Until(condition)** : Une boucle Do Until vas permettre de répéter un morceaux de scripte un nombre de
+                            fois indéterminer.
+  
+## Les Opperateur de condition
+  
+En PowerShell les condition utilise des opperateur different qu'il faut connaitre.  
+  
+**-eq** : Vas verrifier l'égaliter entre deux variable ou autre. Exemple : if (5 -ep $age) {}
+  
+**-ne** : Comme le precedant mais vérifier une inégaliter.  
+
+**-gt/-lt/-ge/-le** : gt est pour plus grand que, lt pour plus petit que, ge pour plus grand ou égale, le pour 
+                      plus petit ou égale.
+
+**-like** : Va permettre de comparer deux chaine de charactere. Exemple if ($value -like 'Exemple') {} 
+            A noté qu'il est possible de rechercher juste une petite suite de charactere.
+            Exemple : if ($value -like '*\Exp\*')
